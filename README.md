@@ -4,6 +4,8 @@
 
 ## Lesson 1 (29.01.2021)
 
+Link: [check task](https://github.com/bcherepakha/fe2804/tree/main/Lesson1)
+
 Steps:
 
 * Install Git ...*DONE*
