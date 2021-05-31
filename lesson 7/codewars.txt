@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/reviews/52995cff9ce954dc50000a86/groups/60b52da42ebabc000183da63
+https://www.codewars.com/kata/reviews/54e8cae858b1db0d2a000148/groups/550f0b43d75853f17a00005d
+https://www.codewars.com/kata/reviews/536c36d47fc09aeb04000006/groups/60b53ac6a681240001338ca1
+
+Четвертое задание я сделала, но оно в упор не отображаеться в моих решениях:
+
+function isValidWalk(walk) {
+  function count(val) {
+    return walk.filter(function(a){return a==val;}).length;
+  }
+  return walk.length==10 && count('n')==count('s') && count('w')==count('e');
+}
