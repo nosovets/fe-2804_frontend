@@ -165,6 +165,7 @@ function updatePrevMonth() {
 
   if (selected_month === 0) {
     month = "December";
+    year = year - 1
   } else {
     month = month_list[selected_month - 1].name;
   }
@@ -179,6 +180,7 @@ function updateNextMonth() {
   console.log(selected_month);
   if (selected_month === 11) {
     month = "January";
+    year = year + 1
   } else {
     month = month_list[selected_month + 1].name;
   }
